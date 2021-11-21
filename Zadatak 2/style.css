@@ -1,0 +1,65 @@
+body,
+html {
+	font-family     : "Helvetica 65 Medium", sans-serif;
+	margin          : 0;
+	font-size       : 15px;
+	color           : white;
+	background-color: cadetblue;
+	text-align      : center;
+}
+
+header {
+	display: block;
+	width  : 100%;
+}
+
+
+ul {
+	display: flex;
+	justify-content: right;
+	list-style-type : none;
+	margin          : 0px;
+	padding         : 0px;
+	overflow        : hidden;
+	background-color: #434346;
+	width           : 100%;
+}
+
+
+li {
+	float: right;
+}
+
+li a {
+	display        : block;
+	color          : white;
+	font-family    : "Helvetica 65 Medium", sans-serif;
+	font-weight    : 500;
+	font-size      : 13px;
+	text-decoration: none;
+	padding        : 15px 15px;
+	color          : #FFFFFF;
+	cursor         : pointer;
+	text-align     : center;
+}
+
+li a:hover {
+	background-color: #222;
+}
+
+
+.welcome {
+	font-family        : "Helvetica 65 Medium", sans-serif;
+	font-size          : 50px;
+	font-weight        : 700;
+	color              : rgb(199, 98, 4);
+	background-image   : url('slike/Naslovna.jpg');
+	background-position: center;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+	height             : 622px;
+	position           : relative;
+	clear              : both;
+	width              : 100%;
+	display            : inline-block;
+}
